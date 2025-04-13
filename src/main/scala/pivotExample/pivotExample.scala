@@ -2,11 +2,11 @@ package pivotExample
 
 import org.apache.spark.sql.catalyst.expressions.aggregate.First
 import org.apache.spark.sql.connector.catalog.TableChange.First
-import utilFunctions.commonFunctions._
 import org.apache.spark.sql.expressions._
 import org.apache.spark.sql.types.TimestampType
 import org.apache.spark.sql.{DataFrame, SparkSession, functions}
 import org.apache.spark.sql.functions.{col, dense_rank, first, from_unixtime, lag, lit, regexp_replace, sum, timestamp_seconds, to_timestamp, unix_timestamp, when}
+import utilFunctions.commonFunctions.getSparkSession
 
 
 object pivotExample {

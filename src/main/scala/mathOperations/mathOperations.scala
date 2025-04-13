@@ -2,7 +2,7 @@ package mathOperations
 
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.SparkSession
-import utilFunctions.commonFunctions._
+import utilFunctions.commonFunctions.getSparkSession
 
 object mathOperations {
 

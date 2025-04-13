@@ -1,8 +1,8 @@
 package listGroupExample
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import utilFunctions.commonFunctions._
 import org.apache.spark.sql.functions._
+import utilFunctions.commonFunctions.getSparkSession
 
 object listExample2 {
 

@@ -1,4 +1,6 @@
-//package LiskovSubstitutionPrinciple
+package LiskovSubstitutionPrinciple
+
+//package main.LiskovSubstitutionPrinciple
 //
 //trait product {
 //  def price: Double

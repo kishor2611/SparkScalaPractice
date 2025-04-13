@@ -1,5 +1,7 @@
-//package LiskovSubstitutionPrinciple
-//import LiskovSubstitutionPrinciple.{Milk, Cereal}
+package LiskovSubstitutionPrinciple
+
+//package main.LiskovSubstitutionPrinciple
+//import main.LiskovSubstitutionPrinciple.{Milk, Cereal}
 //
 //object productCreation {
 //

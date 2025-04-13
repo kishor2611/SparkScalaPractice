@@ -1,7 +1,8 @@
 package handleSpecialChars
+
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._
-import utilFunctions.commonFunctions._
+import utilFunctions.commonFunctions.getSparkSession
 
 object handleSpecialChars {
 
